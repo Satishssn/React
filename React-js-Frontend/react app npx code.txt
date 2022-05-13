@@ -1,0 +1,194 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+====
+npm install -g npm@8.5.5
+====
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS D:\Drivers\Satish anna\React-js-Frontend> npx create-react-app namaste-world
+Need to install the following packages:
+  create-react-app
+Ok to proceed? (y)
+npm WARN deprecated tar@2.2.2: This version of tar is no longer supported, and will not receive security updates. Please upgrade asap.
+
+Creating a new React app in D:\Drivers\Satish anna\React-js-Frontend\namaste-world.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+npm ERR! code ERR_SOCKET_TIMEOUT
+npm ERR! errno ERR_SOCKET_TIMEOUT
+npm ERR! network Invalid response body while trying to fetch https://registry.npmjs.org/caniuse-lite: Socket timeout
+npm ERR! network This is a problem related to network connectivity.
+npm ERR! network In most cases you are behind a proxy or have bad network settings.
+npm ERR! network
+npm ERR! network If you are behind a proxy, please make sure that the
+npm ERR! network 'proxy' config is set properly.  See: 'npm help config'
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\LENOVO\AppData\Local\npm-cache\_logs\2022-03-21T18_53_31_837Z-debug-0.log
+
+Aborting installation.
+  npm install --no-audit --save --save-exact --loglevel error react react-dom react-scripts cra-template has failed.
+
+Deleting generated file... package.json
+Deleting namaste-world/ from D:\Drivers\Satish anna\React-js-Frontend
+Done.
+npm notice 
+npm notice New patch version of npm available! 8.5.0 -> 8.5.5
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.5.5
+npm notice Run npm install -g npm@8.5.5 to update!
+npm notice
+PS D:\Drivers\Satish anna\React-js-Frontend> Run npm install -g npm@8.5.5
+Run : The term 'Run' is not recognized as the name of a cmdlet, function, script file, or operable program. 
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.      
+At line:1 char:1
++ Run npm install -g npm@8.5.5
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (Run:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\Drivers\Satish anna\React-js-Frontend> npm create-react-app namaste-world
+Unknown command: "create-react-app"
+
+To see a list of supported npm commands, run:
+  npm help
+PS D:\Drivers\Satish anna\React-js-Frontend> npx create-react-app namaste-world
+
+Creating a new React app in D:\Drivers\Satish anna\React-js-Frontend\namaste-world.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1373 packages in 2m
+
+169 packages are looking for funding
+  run `npm fund` for details
+Git repo not initialized Error: Command failed: git --version
+    at checkExecSyncError (node:child_process:828:11)
+    at execSync (node:child_process:902:15)
+    at tryGitInit (D:\Drivers\Satish anna\React-js-Frontend\namaste-world\node_modules\react-scripts\scripts\init.js:46:5)
+    at module.exports (D:\Drivers\Satish anna\React-js-Frontend\namaste-world\node_modules\react-scripts\scripts\init.js:276:7)
+    at [eval]:3:14
+    at Script.runInThisContext (node:vm:129:12)
+    at Object.runInThisContext (node:vm:305:38)
+    at node:internal/process/execution:76:19
+    at [eval]-wrapper:6:22
+    at evalScript (node:internal/process/execution:75:60) {
+  status: 1,
+  signal: null,
+  output: [ null, null, null ],
+  pid: 12464,
+  stdout: null,
+  stderr: null
+}
+
+Installing template dependencies using npm...
+npm WARN deprecated source-map-resolve@0.6.0: See https://github.com/lydell/source-map-resolve#deprecated      
+
+added 38 packages in 9s
+
+169 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+
+removed 1 package, and audited 1411 packages in 6s
+
+169 packages are looking for funding
+  run `npm fund` for details
+
+19 vulnerabilities (2 moderate, 17 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+Success! Created namaste-world at D:\Drivers\Satish anna\React-js-Frontend\namaste-world
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd namaste-world
+  npm start
+
+Happy hacking!
+
+=======================================
+PS D:\Drivers\Satish anna\React-js-Frontend> ls
+
+
+    Directory: D:\Drivers\Satish anna\React-js-Frontend
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         3/22/2022  12:34 AM                namaste-world
+
+
+PS D:\Drivers\Satish anna\React-js-Frontend> cd .\namaste-world\
+PS D:\Drivers\Satish anna\React-js-Frontend\namaste-world> ls
+
+
+    Directory: D:\Drivers\Satish anna\React-js-Frontend\namaste-world
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----         3/22/2022  12:35 AM                node_modules
+d-----         3/22/2022  12:34 AM                public
+d-----         3/22/2022  12:34 AM                src
+-a----         3/22/2022  12:34 AM            310 .gitignore
+-a----         3/22/2022  12:35 AM        1125314 package-lock.json
+-a----         3/22/2022  12:35 AM            816 package.json
+-a----         3/22/2022  12:34 AM           3359 README.md
+Compiled successfully!-----
+---
+You can now view namaste-world in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.0.70:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+assets by path static/ 1.49 MiB
+  asset static/js/bundle.js 1.48 MiB [emitted] (name: main) 1 related asset
+  asset static/js/node_modules_web-vitals_dist_web-vitals_js.chunk.js 6.93 KiB [emitted] 1 related asset
+  asset static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg 2.57 KiB [emitted] (auxiliary name: main)       
+asset index.html 1.67 KiB [emitted]
+asset asset-manifest.json 546 bytes [emitted]
+runtime modules 31.3 KiB 15 modules
+modules by path ./node_modules/ 1.35 MiB 99 modules
+modules by path ./src/ 18.2 KiB
+  modules by path ./src/*.css 8.82 KiB
+    ./src/index.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/index.css 1.37 KiB [built] [code generated]
+    ./src/App.css 2.72 KiB [built] [code generated]
+    ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[5].use[2]!./node_modules/source-map-loader/dist/cjs.js!./src/App.css 2 KiB
+ [built] [code generated]
+  modules by path ./src/*.js 5.77 KiB
+    ./src/index.js 1.83 KiB [built] [code generated]
+    ./src/App.js 2.54 KiB [built] [code generated]
+    ./src/reportWebVitals.js 1.41 KiB [built] [code generated]
+  ./src/logo.svg 3.61 KiB [built] [code generated]
+webpack 5.70.0 compiled successfully in 68851 ms
+-----

@@ -1,0 +1,20 @@
+JSX= JS syntax extension.
+====
+New patch version of npm available! 8.5.0 -> 8.5.5
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v8.5.5
+npm notice Run npm install -g npm@8.5.5 to update!
+==================
+npx create-react-appMy
+cd namaste-world
+npm start - Sart the development server.
+npm run build - Bundles the app into static files for production.
+npm test - Starts the test runner
+npm run eject - Removes this tool and copies build dependencies, configuration files and
+scripts anto the app directory.if u do this, U can't go back! 
+we suggest, begin typing: 
+cd namaste-world 
+npm start
+===To know versions=====
+node --version or -v
+npm -v
+npx -v
